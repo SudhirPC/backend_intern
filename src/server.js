@@ -3,6 +3,7 @@ const app = require('./index')
 const Port = process.env.PORT || 2001
 const connect = require('./configs/db')
 
+// connecting 
  app.listen(Port, async() =>{
     try{
 
